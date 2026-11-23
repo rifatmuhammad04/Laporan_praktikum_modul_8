@@ -14,7 +14,7 @@ bool bayar(struct Dompet *d, int x) {
 int main() {
     struct Dompet d;
     int n, nom[100];
-    char jenis;
+    char jenis[100];
 
     scanf("%s %d %d", d.nama, &d.saldo, &n);
     for (int i = 0; i < n; i++) scanf(" %c %d", &jenis[i], &nom[i]);
